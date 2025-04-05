@@ -1,5 +1,20 @@
-# Springworks DevOps Task
+##  Note on AWS Deployment
 
+## AWS Deployment...
+
+Due to AWS account limitations, the deployment to AWS ECS was not performed. However, the necessary configurations and CI/CD pipeline steps are included in the repository to demonstrate how it would be done in a real AWS environment.
+
+Due to limitations with AWS account creation, I was **unable to complete the actual ECS deployment**.
+
+However, this repository **includes all the necessary code and configuration** 
+for:
+- Dockerizing the Node.js app
+- Pushing the image to Docker Hub
+- Setting up Azure DevOps CI/CD pipeline
+- Simulated AWS ECS deployment steps (documented in pipeline)
+
+
+# Springworks DevOps Task
 This is a sample Node.js application built with Express for the Springworks DevOps challenge.
 
 ##  Tech Stack
